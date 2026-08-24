@@ -1,0 +1,13 @@
+uid: SR-0002
+type: system_requirement
+status: approved
+title: Achieve goals in the most straightforward way
+text: >-
+  Accomplish the code's goals in the simplest way that works; avoid unnecessary
+  abstraction and clever approaches, and where justified complexity is unavoidable,
+  document the rationale and the care it requires.
+links:
+- target: UR-0001
+  type: implements
+attrs:
+  source_ref: "Google Go Style Guide: Core Principles — Simplicity"

@@ -1,0 +1,12 @@
+uid: SR-0026
+type: system_requirement
+status: approved
+title: Group imports in the standard order
+text: >-
+  Organise imports into ordered groups: standard library, then other packages, then
+  protocol buffers, then side-effect imports.
+links:
+- target: UR-0004
+  type: implements
+attrs:
+  source_ref: "Google Go Style Guide: Imports — Import Grouping"

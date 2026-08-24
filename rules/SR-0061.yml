@@ -1,0 +1,12 @@
+uid: SR-0061
+type: system_requirement
+status: approved
+title: Print got before want
+text: >-
+  Print the actual value before the expected value, using the words got and want, and
+  indicate diff direction where it helps.
+links:
+- target: UR-0009
+  type: implements
+attrs:
+  source_ref: "Google Go Style Guide: Test Failures — Got Before Want"

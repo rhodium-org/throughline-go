@@ -1,0 +1,12 @@
+uid: SR-0036
+type: system_requirement
+status: approved
+title: Make goroutine exit conditions explicit
+text: >-
+  Make every goroutine's exit condition explicit — via context cancellation or a
+  sync.WaitGroup — to avoid leaks, and keep the synchronisation code local.
+links:
+- target: UR-0006
+  type: implements
+attrs:
+  source_ref: "Google Go Style Guide: Language Features — Goroutine Lifetimes"

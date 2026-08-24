@@ -1,0 +1,12 @@
+uid: SR-0064
+type: system_requirement
+status: approved
+title: Compare with cmp.Equal and cmp.Diff
+text: >-
+  Use cmp.Equal for equality and cmp.Diff for a human-readable diff, in preference to
+  reflect.DeepEqual or older pretty-printing libraries.
+links:
+- target: UR-0009
+  type: implements
+attrs:
+  source_ref: "Google Go Style Guide: Test Failures — Equality Comparison and Diffs"

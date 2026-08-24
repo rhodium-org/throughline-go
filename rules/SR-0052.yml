@@ -1,0 +1,12 @@
+uid: SR-0052
+type: system_requirement
+status: approved
+title: Prefer nil to an empty slice
+text: >-
+  Initialise an empty local slice as nil rather than with an explicit empty literal, and
+  do not design an API that distinguishes a nil slice from an empty one.
+links:
+- target: UR-0007
+  type: implements
+attrs:
+  source_ref: "Google Go Style Guide: Formatting — Nil Slices"

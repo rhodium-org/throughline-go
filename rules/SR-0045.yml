@@ -1,0 +1,12 @@
+uid: SR-0045
+type: system_requirement
+status: approved
+title: Use %q to quote strings
+text: >-
+  Prefer the %q format verb for a string so quotes are added and special characters are
+  escaped automatically.
+links:
+- target: UR-0006
+  type: implements
+attrs:
+  source_ref: "Google Go Style Guide: Language Features — Use %q"

@@ -1,0 +1,12 @@
+uid: SR-0007
+type: system_requirement
+status: approved
+title: Do not impose a fixed maximum line length
+text: >-
+  Apply no fixed maximum line length; refactor an overly long line rather than splitting
+  it at an arbitrary column.
+links:
+- target: UR-0001
+  type: implements
+attrs:
+  source_ref: "Google Go Style Guide: Core Principles — Line Length"

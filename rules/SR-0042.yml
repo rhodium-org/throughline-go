@@ -1,0 +1,12 @@
+uid: SR-0042
+type: system_requirement
+status: approved
+title: Omit redundant break in a switch
+text: >-
+  Do not write a redundant break at the end of a switch clause, since Go breaks
+  automatically; use a comment to mark a deliberately empty clause.
+links:
+- target: UR-0006
+  type: implements
+attrs:
+  source_ref: "Google Go Style Guide: Language Features — Switch and Break"

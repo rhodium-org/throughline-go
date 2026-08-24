@@ -1,0 +1,12 @@
+uid: SR-0003
+type: system_requirement
+status: approved
+title: Keep a high signal-to-noise ratio
+text: >-
+  Eliminate repetitive code, extraneous syntax, opaque names and unnecessary abstraction,
+  and use common idioms so a reader grasps intent quickly.
+links:
+- target: UR-0001
+  type: implements
+attrs:
+  source_ref: "Google Go Style Guide: Core Principles — Concision"

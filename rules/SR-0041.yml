@@ -1,0 +1,12 @@
+uid: SR-0041
+type: system_requirement
+status: approved
+title: Do not copy synchronisation objects
+text: >-
+  Take care copying a struct defined in another package, and never copy a synchronisation
+  object such as a sync.Mutex.
+links:
+- target: UR-0006
+  type: implements
+attrs:
+  source_ref: "Google Go Style Guide: Language Features — Copying"

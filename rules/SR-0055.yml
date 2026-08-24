@@ -1,0 +1,12 @@
+uid: SR-0055
+type: system_requirement
+status: approved
+title: Separate awkward continuations with whitespace
+text: >-
+  Avoid a line break whose continuation aligns with an indented code block; where
+  unavoidable, separate it with a blank line so it is not mistaken for the block.
+links:
+- target: UR-0007
+  type: implements
+attrs:
+  source_ref: "Google Go Style Guide: Formatting — Indentation Confusion"

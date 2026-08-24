@@ -1,0 +1,12 @@
+uid: SR-0024
+type: system_requirement
+status: approved
+title: Place the package comment directly above the package clause
+text: >-
+  Put the package comment immediately before the package clause with no blank line
+  between, exactly one per package, moving an extraordinarily long one into doc.go.
+links:
+- target: UR-0003
+  type: implements
+attrs:
+  source_ref: "Google Go Style Guide: Commentary — Package Comments"

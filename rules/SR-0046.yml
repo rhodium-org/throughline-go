@@ -1,0 +1,12 @@
+uid: SR-0046
+type: system_requirement
+status: approved
+title: Prefer any to interface{}
+text: >-
+  Use the any alias rather than interface{} in new code, as it is equivalent and more
+  readable.
+links:
+- target: UR-0006
+  type: implements
+attrs:
+  source_ref: "Google Go Style Guide: Language Features — Use any"

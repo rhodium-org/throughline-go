@@ -1,0 +1,12 @@
+uid: SR-0049
+type: system_requirement
+status: approved
+title: Name struct-literal fields for external types
+text: >-
+  Specify field names in a struct literal for a type from another package; field names are
+  optional for a package-local type.
+links:
+- target: UR-0007
+  type: implements
+attrs:
+  source_ref: "Google Go Style Guide: Formatting — Field Names"

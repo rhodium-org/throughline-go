@@ -1,0 +1,12 @@
+uid: SR-0054
+type: system_requirement
+status: approved
+title: Do not line-break conditionals; extract operands
+text: >-
+  Do not break an if statement across lines; extract a complex boolean into a named
+  variable instead, and keep each switch clause on a single line.
+links:
+- target: UR-0007
+  type: implements
+attrs:
+  source_ref: "Google Go Style Guide: Formatting — Conditionals and Loops"

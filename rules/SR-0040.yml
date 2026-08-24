@@ -1,0 +1,13 @@
+uid: SR-0040
+type: system_requirement
+status: approved
+title: Choose the receiver type deliberately
+text: >-
+  Choose a pointer or value receiver based on whether the method mutates, on safety (for
+  example a type embedding a sync.Mutex must use a pointer), on efficiency, and on
+  consistency across the type's methods.
+links:
+- target: UR-0006
+  type: implements
+attrs:
+  source_ref: "Google Go Style Guide: Language Features — Receiver Type"

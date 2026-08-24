@@ -1,0 +1,12 @@
+uid: SR-0005
+type: system_requirement
+status: approved
+title: Stay consistent with the surrounding codebase
+text: >-
+  Make code look and behave like similar code across the codebase, prioritising
+  consistency within a package, though never at the cost of a documented style principle.
+links:
+- target: UR-0001
+  type: implements
+attrs:
+  source_ref: "Google Go Style Guide: Core Principles — Consistency"

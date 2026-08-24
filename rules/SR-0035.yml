@@ -1,0 +1,12 @@
+uid: SR-0035
+type: system_requirement
+status: approved
+title: Call Must functions only at startup
+text: >-
+  Call a MustXYZ-style function that panics on failure only during early program startup
+  or package initialisation, never on user input.
+links:
+- target: UR-0006
+  type: implements
+attrs:
+  source_ref: "Google Go Style Guide: Language Features — Must Functions"

@@ -1,0 +1,12 @@
+uid: UR-0001
+type: user_requirement
+status: approved
+title: Core Principles
+text: >-
+  The overarching principles the guide optimises for and the baseline formatting
+  expectations.
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: "Google Go Style Guide: Core Principles"

@@ -1,0 +1,12 @@
+uid: SR-0057
+type: system_requirement
+status: approved
+title: Use the standard logging package appropriately
+text: >-
+  Use the standard log package, prefer its non-formatting call when no formatting is
+  needed, and use log.Fatal for an abnormal exit with a stack trace.
+links:
+- target: UR-0008
+  type: implements
+attrs:
+  source_ref: "Google Go Style Guide: Common Libraries — Logging"

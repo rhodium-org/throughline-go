@@ -1,0 +1,12 @@
+uid: SR-0019
+type: system_requirement
+status: approved
+title: Do not fix a comment line length
+text: >-
+  Apply no fixed comment line length; wrap long comment lines for readability on narrow
+  displays and stay consistent within a file, commonly around 80 columns.
+links:
+- target: UR-0003
+  type: implements
+attrs:
+  source_ref: "Google Go Style Guide: Commentary — Comment Line Length"

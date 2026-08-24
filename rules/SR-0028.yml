@@ -1,0 +1,11 @@
+uid: SR-0028
+type: system_requirement
+status: approved
+title: Never use dot imports
+text: >-
+  Do not use the import . form, which obscures where an identifier originates.
+links:
+- target: UR-0004
+  type: implements
+attrs:
+  source_ref: "Google Go Style Guide: Imports — Import Dot"

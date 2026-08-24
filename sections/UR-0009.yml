@@ -1,0 +1,11 @@
+uid: UR-0009
+type: user_requirement
+status: approved
+title: Test Failures
+text: >-
+  Rules governing how tests are written and how failures are reported.
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: "Google Go Style Guide: Test Failures"

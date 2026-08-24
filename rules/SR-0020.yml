@@ -1,0 +1,13 @@
+uid: SR-0020
+type: system_requirement
+status: approved
+title: Give exported and non-obvious declarations doc comments
+text: >-
+  Provide a doc comment for every top-level exported name and for any unexported
+  declaration whose behaviour is non-obvious, beginning the comment with the name of the
+  thing it describes.
+links:
+- target: UR-0003
+  type: implements
+attrs:
+  source_ref: "Google Go Style Guide: Commentary — Doc Comments"

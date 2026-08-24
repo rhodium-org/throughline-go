@@ -1,0 +1,12 @@
+uid: SR-0018
+type: system_requirement
+status: approved
+title: Eliminate repetition in names
+text: >-
+  Avoid repeating information already supplied by context: do not echo the package name in
+  an exported symbol, the type in a variable name, or surrounding context in a local name.
+links:
+- target: UR-0002
+  type: implements
+attrs:
+  source_ref: "Google Go Style Guide: Naming — Repetition"

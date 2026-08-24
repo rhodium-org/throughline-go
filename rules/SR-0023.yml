@@ -1,0 +1,13 @@
+uid: SR-0023
+type: system_requirement
+status: approved
+title: Name result parameters only when they aid clarity
+text: >-
+  Name result parameters when they clarify the documentation or disambiguate multiple
+  results of the same type, or to modify them in a deferred closure, but avoid names that
+  merely repeat the type.
+links:
+- target: UR-0003
+  type: implements
+attrs:
+  source_ref: "Google Go Style Guide: Commentary — Named Result Parameters"

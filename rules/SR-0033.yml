@@ -1,0 +1,12 @@
+uid: SR-0033
+type: system_requirement
+status: approved
+title: Handle the error first and unindent the happy path
+text: >-
+  Handle an error in the indented block and continue the normal path at the outer level
+  with no else clause, keeping the success path left-aligned.
+links:
+- target: UR-0005
+  type: implements
+attrs:
+  source_ref: "Google Go Style Guide: Errors — Indent Error Flow"

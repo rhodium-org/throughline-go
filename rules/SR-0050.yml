@@ -1,0 +1,11 @@
+uid: SR-0050
+type: system_requirement
+status: approved
+title: Omit repeated element type names in literals
+text: >-
+  Omit a repeated element type name in a slice or map literal where clarity is preserved.
+links:
+- target: UR-0007
+  type: implements
+attrs:
+  source_ref: "Google Go Style Guide: Formatting — Repeated Type Names"

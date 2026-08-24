@@ -1,0 +1,12 @@
+uid: SR-0051
+type: system_requirement
+status: approved
+title: Omit zero-value fields where clarity allows
+text: >-
+  Omit a zero-value field from a struct literal when doing so does not lose clarity, to
+  draw attention to the non-default values.
+links:
+- target: UR-0007
+  type: implements
+attrs:
+  source_ref: "Google Go Style Guide: Formatting — Zero-value Fields"

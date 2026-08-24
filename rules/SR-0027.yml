@@ -1,0 +1,12 @@
+uid: SR-0027
+type: system_requirement
+status: approved
+title: Restrict blank imports to main and tests
+text: >-
+  Import a package only for its side effects using the blank identifier only in a main
+  package or in tests that require it.
+links:
+- target: UR-0004
+  type: implements
+attrs:
+  source_ref: "Google Go Style Guide: Imports — Import Blank"

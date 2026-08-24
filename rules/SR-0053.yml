@@ -1,0 +1,12 @@
+uid: SR-0053
+type: system_requirement
+status: approved
+title: Keep a function signature on one line
+text: >-
+  Keep a function signature on a single line, factoring out local variables to shorten a
+  call and grouping arguments by meaning rather than by column count.
+links:
+- target: UR-0007
+  type: implements
+attrs:
+  source_ref: "Google Go Style Guide: Formatting — Function Formatting"

@@ -1,0 +1,11 @@
+uid: UR-0008
+type: user_requirement
+status: approved
+title: Common Libraries
+text: >-
+  Rules governing use of standard and Google libraries for flags, logging and randomness.
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: "Google Go Style Guide: Common Libraries"

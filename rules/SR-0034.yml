@@ -1,0 +1,12 @@
+uid: SR-0034
+type: system_requirement
+status: approved
+title: Do not panic for ordinary errors
+text: >-
+  Use error values and multiple returns for ordinary error handling; reserve log.Fatal for
+  terminating errors in main or init, and panic only for a truly impossible condition.
+links:
+- target: UR-0006
+  type: implements
+attrs:
+  source_ref: "Google Go Style Guide: Language Features — Don't Panic"

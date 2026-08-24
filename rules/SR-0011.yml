@@ -1,0 +1,12 @@
+uid: SR-0011
+type: system_requirement
+status: approved
+title: Keep package names concise and lowercase
+text: >-
+  Make package names concise, lowercase letters and numbers only, kept as one unbroken
+  word, and avoid names that shadow common local variables.
+links:
+- target: UR-0002
+  type: implements
+attrs:
+  source_ref: "Google Go Style Guide: Naming — Package Names"

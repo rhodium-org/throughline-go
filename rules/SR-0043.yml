@@ -1,0 +1,12 @@
+uid: SR-0043
+type: system_requirement
+status: approved
+title: Prefer synchronous functions
+text: >-
+  Prefer a synchronous function that returns its result directly over an asynchronous one,
+  and let the caller add concurrency when needed.
+links:
+- target: UR-0006
+  type: implements
+attrs:
+  source_ref: "Google Go Style Guide: Language Features — Synchronous Functions"

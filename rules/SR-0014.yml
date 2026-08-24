@@ -1,0 +1,12 @@
+uid: SR-0014
+type: system_requirement
+status: approved
+title: Case initialisms consistently
+text: >-
+  Keep an initialism or acronym in one consistent case within a name, such as URL or url
+  but never Url, and preserve standard prose styling for mixed-case initialisms.
+links:
+- target: UR-0002
+  type: implements
+attrs:
+  source_ref: "Google Go Style Guide: Naming — Initialisms"

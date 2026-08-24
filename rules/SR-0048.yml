@@ -1,0 +1,12 @@
+uid: SR-0048
+type: system_requirement
+status: approved
+title: Use composite literal syntax with clear field names
+text: >-
+  Use composite literal syntax where possible, specify field names for a type from another
+  package, and keep braces aligned across lines.
+links:
+- target: UR-0007
+  type: implements
+attrs:
+  source_ref: "Google Go Style Guide: Formatting — Literal Formatting"

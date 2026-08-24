@@ -1,0 +1,12 @@
+uid: SR-0029
+type: system_requirement
+status: approved
+title: Return errors as the final result
+text: >-
+  Return an error as the final return value, using the error interface type rather than a
+  concrete type, and return nil to signal success.
+links:
+- target: UR-0005
+  type: implements
+attrs:
+  source_ref: "Google Go Style Guide: Errors — Returning Errors"

@@ -1,0 +1,11 @@
+uid: UR-0003
+type: user_requirement
+status: approved
+title: Commentary
+text: >-
+  Rules governing doc comments, comment sentences, examples and package comments.
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: "Google Go Style Guide: Commentary"
