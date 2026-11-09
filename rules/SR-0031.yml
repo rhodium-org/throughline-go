@@ -1,12 +1,12 @@
 uid: SR-0031
 type: system_requirement
-status: approved
+status: proposed
 title: Make a deliberate choice for every error
-text: >-
-  For every error, make a deliberate choice: handle it, return it, or in rare
-  well-justified cases call log.Fatal; never silently discard an error.
+text: 'For every error, make a deliberate choice: handle it, return it, or in rare
+  well-justified cases call log.Fatal; never silently discard an error.'
+normative: true
 links:
 - target: UR-0005
   type: implements
 attrs:
-  source_ref: "Google Go Style Guide: Errors — Handle Errors"
+  source_ref: 'Google Go Style Guide: Errors — Handle Errors'

@@ -1,12 +1,12 @@
 uid: SR-0044
 type: system_requirement
-status: approved
+status: proposed
 title: Prefer type definitions to type aliases
-text: >-
-  Create a new type with a type definition; use a type alias only rarely, chiefly to
-  support an incremental migration.
+text: Create a new type with a type definition; use a type alias only rarely, chiefly
+  to support an incremental migration.
+normative: true
 links:
 - target: UR-0006
   type: implements
 attrs:
-  source_ref: "Google Go Style Guide: Language Features — Type Aliases"
+  source_ref: 'Google Go Style Guide: Language Features — Type Aliases'

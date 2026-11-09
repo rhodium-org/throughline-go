@@ -1,12 +1,12 @@
 uid: SR-0004
 type: system_requirement
-status: approved
+status: proposed
 title: Design for change, not just for writing
-text: >-
-  Because code is modified far more than it is written, design APIs to grow gracefully,
+text: Because code is modified far more than it is written, design APIs to grow gracefully,
   avoid hidden critical details, use predictable naming and minimise dependencies.
+normative: true
 links:
 - target: UR-0001
   type: implements
 attrs:
-  source_ref: "Google Go Style Guide: Core Principles — Maintainability"
+  source_ref: 'Google Go Style Guide: Core Principles — Maintainability'

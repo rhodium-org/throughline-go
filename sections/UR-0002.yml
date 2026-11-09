@@ -1,12 +1,12 @@
 uid: UR-0002
 type: user_requirement
-status: approved
+status: proposed
 title: Naming
-text: >-
-  Rules governing the casing and choice of identifiers, receivers, packages, constants and
-  initialisms.
+text: Rules governing the casing and choice of identifiers, receivers, packages,
+  constants and initialisms.
+normative: true
 links:
 - target: INT-0001
   type: derives_from
 attrs:
-  source_ref: "Google Go Style Guide: Naming"
+  source_ref: 'Google Go Style Guide: Naming'

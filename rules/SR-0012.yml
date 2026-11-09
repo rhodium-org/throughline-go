@@ -1,13 +1,13 @@
 uid: SR-0012
 type: system_requirement
-status: approved
+status: proposed
 title: Use short, consistent receiver names
-text: >-
-  Name a receiver with a short one- or two-letter abbreviation of its type, apply the same
-  name consistently across all of the type's methods, and never use underscores or generic
-  names like this or self.
+text: Name a receiver with a short one- or two-letter abbreviation of its type, apply
+  the same name consistently across all of the type's methods, and never use underscores
+  or generic names like this or self.
+normative: true
 links:
 - target: UR-0002
   type: implements
 attrs:
-  source_ref: "Google Go Style Guide: Naming — Receiver Names"
+  source_ref: 'Google Go Style Guide: Naming — Receiver Names'

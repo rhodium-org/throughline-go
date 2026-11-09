@@ -1,12 +1,12 @@
 uid: UR-0007
 type: user_requirement
-status: approved
+status: proposed
 title: Formatting
-text: >-
-  Rules governing composite literals, function signatures, conditionals and layout beyond
-  gofmt.
+text: Rules governing composite literals, function signatures, conditionals and layout
+  beyond gofmt.
+normative: true
 links:
 - target: INT-0001
   type: derives_from
 attrs:
-  source_ref: "Google Go Style Guide: Formatting"
+  source_ref: 'Google Go Style Guide: Formatting'

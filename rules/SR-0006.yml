@@ -1,12 +1,12 @@
 uid: SR-0006
 type: system_requirement
-status: approved
+status: proposed
 title: Conform all files to gofmt
-text: >-
-  Format every source file to match the output of gofmt; formatting is not a matter of
-  individual preference.
+text: Format every source file to match the output of gofmt; formatting is not a
+  matter of individual preference.
+normative: true
 links:
 - target: UR-0001
   type: implements
 attrs:
-  source_ref: "Google Go Style Guide: Core Principles — Formatting"
+  source_ref: 'Google Go Style Guide: Core Principles — Formatting'

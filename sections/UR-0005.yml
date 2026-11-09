@@ -1,11 +1,11 @@
 uid: UR-0005
 type: user_requirement
-status: approved
+status: proposed
 title: Errors
-text: >-
-  Rules governing how errors are returned, phrased, handled and signalled.
+text: Rules governing how errors are returned, phrased, handled and signalled.
+normative: true
 links:
 - target: INT-0001
   type: derives_from
 attrs:
-  source_ref: "Google Go Style Guide: Errors"
+  source_ref: 'Google Go Style Guide: Errors'

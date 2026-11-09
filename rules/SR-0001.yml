@@ -1,13 +1,13 @@
 uid: SR-0001
 type: system_requirement
-status: approved
+status: proposed
 title: Make the code's purpose and rationale clear
-text: >-
-  Write for the reader: make both what the code does and why it does it clear, through
-  effective naming, helpful commentary and sensible organisation. Clarity is the most
-  important principle.
+text: 'Write for the reader: make both what the code does and why it does it clear,
+  through effective naming, helpful commentary and sensible organisation. Clarity
+  is the most important principle.'
+normative: true
 links:
 - target: UR-0001
   type: implements
 attrs:
-  source_ref: "Google Go Style Guide: Core Principles — Clarity"
+  source_ref: 'Google Go Style Guide: Core Principles — Clarity'

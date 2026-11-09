@@ -1,12 +1,12 @@
 uid: SR-0032
 type: system_requirement
-status: approved
+status: proposed
 title: Signal failure with an error, not an in-band value
-text: >-
-  Do not return a sentinel in-band value such as -1 or an empty string to signal failure;
-  return an additional error or ok value instead.
+text: Do not return a sentinel in-band value such as -1 or an empty string to signal
+  failure; return an additional error or ok value instead.
+normative: true
 links:
 - target: UR-0005
   type: implements
 attrs:
-  source_ref: "Google Go Style Guide: Errors — In-band Errors"
+  source_ref: 'Google Go Style Guide: Errors — In-band Errors'

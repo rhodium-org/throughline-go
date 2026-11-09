@@ -1,13 +1,12 @@
 uid: INT-0001
 type: intent
-status: approved
+status: proposed
 title: Go is written in one clear, simple, consistent style
-text: >-
-  The Google Go Style Guide exists so that Go across a large codebase reads as though
-  written by one author: prioritising clarity of purpose and rationale, simplicity over
-  cleverness, concision, and long-term maintainability, and staying consistent with
-  idiomatic Go and the surrounding package so that any engineer can read and change code
-  they did not write.
+text: 'The Google Go Style Guide exists so that Go across a large codebase reads
+  as though written by one author: prioritising clarity of purpose and rationale,
+  simplicity over cleverness, concision, and long-term maintainability, and staying
+  consistent with idiomatic Go and the surrounding package so that any engineer can
+  read and change code they did not write.'
 normative: false
 attrs:
-  source_ref: "Google Go Style Guide"
+  source_ref: Google Go Style Guide

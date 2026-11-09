@@ -1,13 +1,13 @@
 uid: SR-0010
 type: system_requirement
-status: approved
+status: proposed
 title: Do not use underscores in identifiers
-text: >-
-  Do not put underscores in identifiers, except in package names imported by generated
-  code, in test function names in _test.go files, and in low-level OS or cgo interop
-  libraries.
+text: Do not put underscores in identifiers, except in package names imported by
+  generated code, in test function names in _test.go files, and in low-level OS or
+  cgo interop libraries.
+normative: true
 links:
 - target: UR-0002
   type: implements
 attrs:
-  source_ref: "Google Go Style Guide: Naming — Underscores"
+  source_ref: 'Google Go Style Guide: Naming — Underscores'

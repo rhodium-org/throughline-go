@@ -1,12 +1,12 @@
 uid: SR-0008
 type: system_requirement
-status: approved
+status: proposed
 title: Prefer local consistency unless it worsens a deviation
-text: >-
-  Keep style consistent within a file or package, unless doing so would contradict the
-  guide or entrench an existing deviation.
+text: Keep style consistent within a file or package, unless doing so would contradict
+  the guide or entrench an existing deviation.
+normative: true
 links:
 - target: UR-0001
   type: implements
 attrs:
-  source_ref: "Google Go Style Guide: Core Principles — Local Consistency"
+  source_ref: 'Google Go Style Guide: Core Principles — Local Consistency'

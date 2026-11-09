@@ -1,12 +1,13 @@
 uid: SR-0016
 type: system_requirement
-status: approved
+status: proposed
 title: Match name length to scope
-text: >-
-  Make a name's length roughly proportional to the size of its scope and inversely
-  proportional to how often it is used, so a large scope warrants a more descriptive name.
+text: Make a name's length roughly proportional to the size of its scope and inversely
+  proportional to how often it is used, so a large scope warrants a more descriptive
+  name.
+normative: true
 links:
 - target: UR-0002
   type: implements
 attrs:
-  source_ref: "Google Go Style Guide: Naming — Variable Names"
+  source_ref: 'Google Go Style Guide: Naming — Variable Names'

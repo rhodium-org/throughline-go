@@ -1,12 +1,12 @@
 uid: SR-0059
 type: system_requirement
-status: approved
+status: proposed
 title: Do not build assertion libraries
-text: >-
-  Do not create or use an assertion library or test DSL; write tests in plain Go with
-  standard helpers such as cmp and fmt.
+text: Do not create or use an assertion library or test DSL; write tests in plain
+  Go with standard helpers such as cmp and fmt.
+normative: true
 links:
 - target: UR-0009
   type: implements
 attrs:
-  source_ref: "Google Go Style Guide: Test Failures — Assertion Libraries"
+  source_ref: 'Google Go Style Guide: Test Failures — Assertion Libraries'

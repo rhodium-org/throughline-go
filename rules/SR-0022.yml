@@ -1,12 +1,12 @@
 uid: SR-0022
 type: system_requirement
-status: approved
+status: proposed
 title: Provide runnable examples in test files
-text: >-
-  Give packages runnable Example functions in test files so they appear in the generated
-  documentation; keep non-runnable examples in comments to standard formatting.
+text: Give packages runnable Example functions in test files so they appear in the
+  generated documentation; keep non-runnable examples in comments to standard formatting.
+normative: true
 links:
 - target: UR-0003
   type: implements
 attrs:
-  source_ref: "Google Go Style Guide: Commentary — Examples"
+  source_ref: 'Google Go Style Guide: Commentary — Examples'

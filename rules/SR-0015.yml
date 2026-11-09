@@ -1,12 +1,13 @@
 uid: SR-0015
 type: system_requirement
-status: approved
+status: proposed
 title: Avoid Get prefixes on getters
-text: >-
-  Do not prefix a getter with Get or get unless the underlying concept genuinely uses the
-  word get; name it after the noun, or use Compute or Fetch when real work is done.
+text: Do not prefix a getter with Get or get unless the underlying concept genuinely
+  uses the word get; name it after the noun, or use Compute or Fetch when real work
+  is done.
+normative: true
 links:
 - target: UR-0002
   type: implements
 attrs:
-  source_ref: "Google Go Style Guide: Naming — Getters"
+  source_ref: 'Google Go Style Guide: Naming — Getters'

@@ -1,12 +1,13 @@
 uid: SR-0037
 type: system_requirement
-status: approved
+status: proposed
 title: Define interfaces where they are consumed
-text: >-
-  Avoid defining an interface before a real need exists, keep interfaces small, and let
-  the consumer define the interface while the producer returns a concrete type.
+text: Avoid defining an interface before a real need exists, keep interfaces small,
+  and let the consumer define the interface while the producer returns a concrete
+  type.
+normative: true
 links:
 - target: UR-0006
   type: implements
 attrs:
-  source_ref: "Google Go Style Guide: Language Features — Interfaces"
+  source_ref: 'Google Go Style Guide: Language Features — Interfaces'

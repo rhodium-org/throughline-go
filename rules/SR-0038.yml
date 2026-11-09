@@ -1,12 +1,12 @@
 uid: SR-0038
 type: system_requirement
-status: approved
+status: proposed
 title: Use generics only to meet a real requirement
-text: >-
-  Use generics to satisfy a genuine business requirement, not prematurely, and avoid
-  building DSLs, assertion libraries or over-engineered abstractions with them.
+text: Use generics to satisfy a genuine business requirement, not prematurely, and
+  avoid building DSLs, assertion libraries or over-engineered abstractions with them.
+normative: true
 links:
 - target: UR-0006
   type: implements
 attrs:
-  source_ref: "Google Go Style Guide: Language Features — Generics"
+  source_ref: 'Google Go Style Guide: Language Features — Generics'

@@ -1,12 +1,12 @@
 uid: SR-0039
 type: system_requirement
-status: approved
+status: proposed
 title: Pass small values, point at large ones
-text: >-
-  Do not pass a pointer merely to save the bytes of a string or small value; use a pointer
-  for a large struct or a protocol buffer.
+text: Do not pass a pointer merely to save the bytes of a string or small value;
+  use a pointer for a large struct or a protocol buffer.
+normative: true
 links:
 - target: UR-0006
   type: implements
 attrs:
-  source_ref: "Google Go Style Guide: Language Features — Pass Values"
+  source_ref: 'Google Go Style Guide: Language Features — Pass Values'

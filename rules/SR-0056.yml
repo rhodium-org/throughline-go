@@ -1,12 +1,12 @@
 uid: SR-0056
 type: system_requirement
-status: approved
+status: proposed
 title: Name flags snake_case and define them in main
-text: >-
-  Give flags snake_case names and MixedCaps variable names, define flags only in package
-  main, and never export flags as a library side effect.
+text: Give flags snake_case names and MixedCaps variable names, define flags only
+  in package main, and never export flags as a library side effect.
+normative: true
 links:
 - target: UR-0008
   type: implements
 attrs:
-  source_ref: "Google Go Style Guide: Common Libraries — Flags"
+  source_ref: 'Google Go Style Guide: Common Libraries — Flags'

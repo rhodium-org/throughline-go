@@ -1,11 +1,11 @@
 uid: UR-0004
 type: user_requirement
-status: approved
+status: proposed
 title: Imports
-text: >-
-  Rules governing import renaming, grouping, blank and dot imports.
+text: Rules governing import renaming, grouping, blank and dot imports.
+normative: true
 links:
 - target: INT-0001
   type: derives_from
 attrs:
-  source_ref: "Google Go Style Guide: Imports"
+  source_ref: 'Google Go Style Guide: Imports'

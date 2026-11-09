@@ -1,12 +1,12 @@
 uid: SR-0063
 type: system_requirement
-status: approved
+status: proposed
 title: Prefer t.Error so a test keeps going
-text: >-
-  Prefer t.Error over t.Fatal so a test can report multiple failures, using t.Fatal only
-  when continuing would be meaningless.
+text: Prefer t.Error over t.Fatal so a test can report multiple failures, using t.Fatal
+  only when continuing would be meaningless.
+normative: true
 links:
 - target: UR-0009
   type: implements
 attrs:
-  source_ref: "Google Go Style Guide: Test Failures — Keep Going"
+  source_ref: 'Google Go Style Guide: Test Failures — Keep Going'

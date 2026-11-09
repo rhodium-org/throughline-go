@@ -1,12 +1,12 @@
 uid: SR-0046
 type: system_requirement
-status: approved
+status: proposed
 title: Prefer any to interface{}
-text: >-
-  Use the any alias rather than interface{} in new code, as it is equivalent and more
-  readable.
+text: Use the any alias rather than interface{} in new code, as it is equivalent
+  and more readable.
+normative: true
 links:
 - target: UR-0006
   type: implements
 attrs:
-  source_ref: "Google Go Style Guide: Language Features — Use any"
+  source_ref: 'Google Go Style Guide: Language Features — Use any'

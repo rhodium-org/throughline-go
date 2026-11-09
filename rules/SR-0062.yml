@@ -1,12 +1,12 @@
 uid: SR-0062
 type: system_requirement
-status: approved
+status: proposed
 title: Compare whole structures
-text: >-
-  Compare a complete data structure with a deep comparison rather than checking field by
-  field.
+text: Compare a complete data structure with a deep comparison rather than checking
+  field by field.
+normative: true
 links:
 - target: UR-0009
   type: implements
 attrs:
-  source_ref: "Google Go Style Guide: Test Failures — Full Structure Comparisons"
+  source_ref: 'Google Go Style Guide: Test Failures — Full Structure Comparisons'

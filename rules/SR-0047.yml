@@ -1,13 +1,13 @@
 uid: SR-0047
 type: system_requirement
-status: approved
+status: proposed
 title: Do not define custom context types
-text: >-
-  Pass context.Context as the first parameter of a function; do not create a custom
-  context type or use any interface other than context.Context in a signature, and do not
-  store a Context in a struct.
+text: Pass context.Context as the first parameter of a function; do not create a
+  custom context type or use any interface other than context.Context in a signature,
+  and do not store a Context in a struct.
+normative: true
 links:
 - target: UR-0006
   type: implements
 attrs:
-  source_ref: "Google Go Style Guide: Language Features — Contexts"
+  source_ref: 'Google Go Style Guide: Language Features — Contexts'

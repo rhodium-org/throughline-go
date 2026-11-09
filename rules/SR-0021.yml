@@ -1,12 +1,12 @@
 uid: SR-0021
 type: system_requirement
-status: approved
+status: proposed
 title: Write doc comments as complete sentences
-text: >-
-  Write full comments and all doc comments as complete, capitalised, punctuated sentences;
-  a short fragment comment need not be.
+text: Write full comments and all doc comments as complete, capitalised, punctuated
+  sentences; a short fragment comment need not be.
+normative: true
 links:
 - target: UR-0003
   type: implements
 attrs:
-  source_ref: "Google Go Style Guide: Commentary — Comment Sentences"
+  source_ref: 'Google Go Style Guide: Commentary — Comment Sentences'
